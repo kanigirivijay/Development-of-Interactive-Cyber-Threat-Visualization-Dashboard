@@ -1,0 +1,35 @@
+Project Title: Development of Interactive Cyber Threat Visualization Dashboard
+Project Statement
+
+This project focuses on developing an interactive, data-driven dashboard that provides cybersecurity analysts with immediate, visual understanding of the threat landscape. By aggregating and visualizing simulated security incident data (e.g., CVE feeds, attack logs, threat intelligence records), the solution highlights attack patterns, tracks temporal trends, and identifies geographical and systemic hotspots.
+
+The dashboard enables proactive risk mitigation, efficient resource allocation, and an improved security posture by pinpointing the most vulnerable areas within an organization.
+
+Outcomes
+
+Geospatial Risk Mapping: Instantly visualize the geographical origins and targets of cyber incidents on an interactive global map.
+
+Trend and Anomaly Detection: Perform time-series analysis to detect spikes, seasonal patterns, and unusual attack behavior.
+
+Vulnerability Prioritization: Identify frequently targeted systems and MITRE ATT&CK techniques using hierarchical visualizations.
+
+Enhanced Reporting: Generate executive-ready, data-driven reports summarizing organizational risk.
+
+Modules to be Implemented
+Module 1: Data Acquisition and Structuring
+
+Collect and clean raw security incident data from structured and semi-structured sources.
+
+Normalize data fields to ensure consistency and map incidents to MITRE ATT&CK categories.
+
+Module 2: Visualization Development
+
+Develop time-series and categorical charts to quantify attack frequency, severity, and distribution.
+
+Implement interactive geospatial maps for risk mapping and treemap/sunburst charts for vulnerability analysis.
+
+Module 3: Dashboard Integration
+
+Integrate all visualizations into a unified Plotly/Dash application.
+
+Add interactive filtering, drill-down capabilities, and executive-level reporting features.
